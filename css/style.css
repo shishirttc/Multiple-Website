@@ -10,3 +10,42 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+nav{
+    display: flex;
+    background-color: #1c2833;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 50px 0 80px;
+    align-items: center;
+}
+
+nav h2{
+    color: white;
+    font-size: 25px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 8px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding: 7p 13px;
+    border-radius: 3px;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover, .active{
+    color: red;
+}
