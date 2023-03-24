@@ -317,10 +317,70 @@ header{
 }
 
 
+/* contact section code start */
 
+.contact-section{
+    background-image: linear-gradient(#3958a25e, #4089c7), url(../images/contact.jpg);
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
+form{
+    background-color: #2e257a;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px 60px;
+    border: 6px solid #4497d3;
+    border-radius: 10px;
+}
 
+form h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+form p{
+    color: white;
+    text-align: center;
+    margin: 30px 0;
+    letter-spacing: 0.1em;
+}
 
+.form-input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 50px 0;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 3px solid #4497d3;
+    font-size: 18px;
+}
+
+.form-input::placeholder{
+    color: #4497d3;
+    font-size: 18px;
+    font-weight: bold;
+}
+.submit-button{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 40px;
+    font-size: 20px;
+    background: none;
+    color: white;
+    outline-style: ridge;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submit-button:hover{
+    background-color: #16213e;
+}
 
 
 
@@ -379,6 +439,14 @@ header{
     .single-advice h3{
         margin-top: 50px;
     }
+    /* finish advice section code */
+
+    /* start contact section code */
+    form{
+        max-width: 90%;
+        margin: 20px 30px;
+    }
+
 
 }
 
@@ -436,8 +504,13 @@ header{
     .advice-icon a{
         margin: 10px 5px;
     }
-
-
+    /* finish advice section code */
+    
+    /* start contact section code */
+    form{
+        max-width: 90%;
+        margin: 40px 50px;
+    }
 
 
 
