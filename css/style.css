@@ -455,14 +455,51 @@ form p{
 }
 
 
+/* Footer part start */
+footer{
+    background-color: #154260;
+    padding: 100px 0 50px 0;
+}
+.footer-parent{
+    display: flex;
+    margin: 0 200px;
+    color: white;
+    gap: 80px;
+}
 
+.single-footer{
+    width: 100%;
+}
 
+.single-footer h5{
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+.single-footer h5 span{
+    color: yellow;
+}
 
+.single-footer-2 p{
+    margin: 15px;
+}
+.single-footer-2 a{
+    text-decoration: none;
+    color: white;
+}
 
-
-
-
-
+.single-footer-3 ul{
+    display: flex;
+}
+.single-footer-3 ul li{
+    list-style-type: none;
+}
+.single-footer-3 ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+    background-color: #0a273863;
+    padding: 8px;
+}
 
 
 
@@ -558,8 +595,21 @@ form p{
     .single-takeCare{
         margin-bottom: 70px;
     }
+/* finished takeCare section */
 
+/* footer section start */
 
+.footer-parent{
+    flex-direction: column;
+    margin: 0 30px;
+}
+.single-footer{
+    text-align: center;
+}
+.single-footer-3 ul{
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -651,7 +701,14 @@ form p{
         margin-bottom: 80px;
     }
     
+/* finished takeCare section */
 
+/* footer section start */
+
+.footer-parent{
+    margin: 0 70px;
+    gap: 40px;
+}
 
 
 
