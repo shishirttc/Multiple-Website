@@ -422,11 +422,37 @@ form p{
 }
 
 
+/* seven section code start */
 
+.seven-section{
+    padding: 100px 0;
+}
+.takeCare-parent{
+    display: flex;
+    margin: 0 200px;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.single-takeCare h3{
+    font-size: 30px;
+}
+.single-takeCare p{
+    margin: 20px 0;
+}
+.single-takeCare ul li{
+    list-style-position: inside;
+    margin: 10px 0;
+}
 
+.single-takeCare-imgbox{
+    width: 100%;
+}
 
-
+.single-takeCare-imgbox img{
+    width: 100%;
+}
 
 
 
@@ -520,6 +546,20 @@ form p{
         text-align: center;
     }
 
+    /* start macth projects section code */
+
+    /* takeCare section code start */
+
+    .takeCare-parent{
+        display: block;
+        margin: 0 30px;
+    }
+
+    .single-takeCare{
+        margin-bottom: 70px;
+    }
+
+
 
 
 
@@ -599,6 +639,18 @@ form p{
         margin-left: 70px;
         margin-left: 70px;
     }
+    /* start macth projects section code */
+
+    /* takeCare section code start */
+
+    .takeCare-parent{
+        display: block;
+        margin: 0 70px;
+    }
+    .single-takeCare{
+        margin-bottom: 80px;
+    }
+    
 
 
 
